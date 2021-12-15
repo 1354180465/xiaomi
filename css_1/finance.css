@@ -1,0 +1,388 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	list-style:none;
+	text-decoration: none;
+	cursor: pointer;
+}
+.container{
+	/*width: 1365px;*/
+	min-width: 1200px;
+	/*height: 2500px;*/
+}
+
+.top{
+	/*width: 1365px;*/
+	height: 40px;
+	background: #333;
+}
+.top_1{
+	width: 1217px;
+	height: 40px;
+	background:#333;
+	margin: 0 auto;
+	}
+.top_1 a{
+		color: #b0b0b0;
+	}
+	.top_1 a:hover{
+		color:white;
+	}
+.top_1 ul{
+	margin-left: 10px;
+}
+
+
+
+.top_1 li{
+	display: inline-block;
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #b0b0b0;
+}
+.top_1 ul li span{
+	display: inline-block;
+	width: 15px;
+	text-align: center;
+	color: #424242;
+}
+
+.top_1 ol{
+	float: right;
+}
+.finance_1{
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.finance_1 img{
+	width: 187px;
+	height: 55px;
+}
+.finance_1 ul{
+	list-style: none;
+	float: right;
+	width: 474px;
+	height: 44px;	
+}
+.finance_1 ul li{
+	float: left;
+	margin-left: 45px;
+	font-size: 22px;
+	line-height: 44px;
+	cursor: pointer;
+}
+.finance_1 ul li:hover{
+	color: orangered;
+}
+#lc{
+	width: 120px;
+	height:90px;
+	right: 425px;
+	border: 1px solid darkgrey;
+	position: absolute;
+	display: none;
+	z-index: 10;
+}
+#cuss:hover #lc{
+	display: block;
+	color:black;
+	background: white;
+	box-shadow: 1px 1px 2px #757575;
+}
+#lc p{
+	text-align: center;
+	height: 44px;
+	font-size: 16px;
+	list-style: none;
+	line-height: 44px;
+	cursor: pointer
+}
+#lc p:hover{
+	color: orangered;
+}
+#finance_2{
+	width: 1200px;
+	height: 300px;
+	background: url(../img_finance/finance_1.png)no-repeat;
+	margin: 0 auto;
+}
+#finance_2_imglist li{
+	list-style: none;
+	position: absolute;
+	z-index: 1;
+}
+#fx{
+	position: absolute;
+	z-index: 5;
+	width: 50px;
+	height: 23px;
+	right: 90px;
+	top: 425px;
+	}
+	#fx span{
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		border-radius: 100%;
+		background:gray;
+	}
+.dada{
+	width: 1349px;
+	background: #EEEEEE;
+	margin-top: 20px;
+	
+}
+.content_second{
+	width: 1200px;
+	margin: 0 auto;
+	/*background: #EEEEEE;*/
+}
+.home_appliance{
+	height: 58px;
+	width: 1200px;
+}
+.home_appliance_1{
+	list-style: none;
+	float: right;
+}
+.home_appliance_1 li{
+	float: left;
+	margin-right: 26px;
+	line-height: 58px;
+	cursor: pointer;
+}
+.home_appliance_1 li:hover{
+	color: orangered;
+}
+.home_appliance_2{
+	width: 1200px;
+	height: 628px;
+/*	background: lightskyblue;*/
+}
+.home_appliance_2_left{
+	display: inline-block;
+	float: left;
+	width:223px;
+	height: 622px;
+	background:url(../img_finance/finance_3.png);
+/*	background-size: 100% 100%;*/
+}
+.home_appliance_2_left img{
+	width: 223px;
+	height:628px ;
+}
+.home_appliance_2_left:hover{
+	margin-top: -5px;
+	transition:0.5s;
+	box-shadow: 2px 3px 2px #333333;
+}
+.home_appliance_2_right{
+	width: 967px;
+	height: 624px;
+	float: right;
+}
+.up{
+	list-style:none ;
+	width: 214px;
+	height: 300px;
+	float: left;
+	margin-left: 24px;
+}
+
+.down{
+	list-style: none;
+	width: 214px;
+	height: 300px;
+	float: left;
+	margin-left: 24px;
+	margin-top: 18px;
+/*	border: 1px solid red;*/
+}
+
+
+.home_appliance_2_right_li{
+	display: inline-block;
+	width: 220px;
+	height:302px;
+	background: white;
+	margin-bottom: 22px;
+}
+.home_appliance_2_right_li:hover{
+	margin-top: -8px;
+	transition: 0.5s;
+	box-shadow: 2px 3px 2px #757575;
+}
+.home_appliance_2_right_li img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 12px;
+}
+.teishu{
+	width: 220px;
+	height: 140px;
+	display: inline-block;
+	background: white;
+}
+.teishu:hover{
+	margin-top: -8px;
+	transition: 0.5s;
+	box-shadow: 2px 3px 2px #757575;
+}
+.teishu_1{
+	width: 100px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.teishu span{
+	display: inline-block;
+	width: 156px;
+	text-align: center;
+	line-height: 36px;
+	height: 36px;
+	margin-top: 10px;
+	margin-left: 30px;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px 15px 15px 15px ;
+	background: orangered;
+}
+.teishu p{
+	text-align: center;
+	margin-top: 33px;
+	color: #333333;
+}
+#yangshi{
+	display: inline-block;
+	width: 63px;
+	background: orangered;
+	height: 62px;
+	text-align: center;
+	line-height:62px ;
+	border-radius: 100%;
+	margin-top: 40px;
+	float: right;
+	margin-right: 26px;
+	color: white;
+	cursor: pointer;
+}
+.teishu img{
+	width: 200px;
+	height: 130px;
+	margin-top: -26px;
+	float: left;
+}
+.home_appliance_2_right .ds{
+	display: inline-block;
+	width: 216px;
+	text-align: center;	
+}
+.ds_1{
+	height: 150px;
+	font-size: 18px;
+	line-height: 150px;
+}
+.ds_2{
+	color: orangered;
+}
+.ds_3{
+	font-size: 15px;
+	color:gray;
+}
+.qing{
+	font-weight: bold;
+	font-size: 40px;
+}
+.ho{
+	font-size: 28px;
+}
+.home_appliance_2_right_li p{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 15px;
+	color: grey;
+}
+.app{
+	background: url(../img_finance/finance_5.png)no-repeat;
+	background-position: center;
+
+}
+.app img{
+	width:220px ;
+	height: 150px;
+}
+.below{
+	width: 1200px;
+	height: 130px;
+	margin: 0 auto;
+}
+.below a{
+	border-right: 1px solid darkgray;
+	float: left;
+	display: inline-block;
+	width: 399px;
+	height: 90px;
+}
+.below a img{
+	margin-left: 30px;
+}
+.xiaomi{
+	width: 1200px;
+	margin:  0 auto;
+	height: 120px;
+	background: white;
+}
+#left{
+	margin-top: 50px;
+	width: 700px;
+	height: 60px;
+	float: left;
+}
+#left p{
+	font-size: 14px;
+	margin-top: 8px;
+	color: gray;
+}
+#left img{
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-right: 7px;
+}
+#right{
+	margin-top: 50px;
+	width: 300px;
+	height:80px;
+	float: right;
+}
+#right p{
+	margin-top: 2px;
+}
+#metell{
+	font-size: 28px;
+	color: orangered;
+	font-family: "黑体";
+	font-weight: bold;
+}
+#day{
+	font-size: 12px;
+	color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+

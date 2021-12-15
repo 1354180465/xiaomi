@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	list-style: none;
+	text-decoration: none;
+}
+.frame{
+	width: 1349px;
+	min-width: 1200px;
+}
+.navigation_bar{
+	width: 1349px;
+	height: 36px;
+	background:#333333 ;
+}
+.navigation_bar_1{
+	width: 1260px;
+	height: 36px;
+	margin: 0 auto;
+}
+.navigation_bar_1 a{
+	font-size: 12px;
+	color: #666;
+	line-height: 36px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+.navigation_bar_1 a:hover{
+	color: white;
+}
+.top_bar{
+	width: 1260px;
+	height: 140px;	
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.top_bar_1{
+	width: 1260px;
+	height: 55px;
+	margin:0 auto;
+}
+.top_bar_1 ul{
+	list-style: none;
+	float: right;
+	
+}
+.top_bar_1 ul li{
+	line-height: 55px;
+	float: left;
+	margin-right: 20px;
+}
+.soso{
+	height: 37px;
+	width: 255px;
+	display: inline-block;
+	float: right;
+	margin-top: 9px;
+	border: 1px solid #DDDDDD;
+}
+.soso #input_1{
+	float: left;
+	width: 211px;
+	height: 37px;
+	outline: none;
+	padding-left:5px;
+	border: none;
+	border-right: 1px solid #DDDDDD;
+}
+.soso #input_2{
+	float: left;
+	width: 35px;
+	height: 35px;
+	border: none;
+	background:url(../img_game/soso.png)no-repeat;
+	background-size: 70% 70%;
+	background-position: center;
+	outline: none;
+}
+.mouth{
+	width:1260px;
+	margin: 0 auto;
+	margin-top: 36px;
+}
+.mouth ul{
+	list-style: none;
+	width: 1215px;
+	border-left: 4px solid #DCDCDC;
+	margin: 0 auto;
+}
+.mouth ul li{
+	height:500px ;
+	margin-left: 50px;
+}
+.mouth ul li img{
+	width: 355px;
+	height: 452px;
+	margin-left: 20px;
+}
+.yu{
+	display: inline-block;
+	width:80px;
+	position: absolute;
+	left: 28px;
+	height: 70px;
+	background: white;
+}
+.yu nav{
+	font-size: 32px;
+	text-align: center;
+}
+.yu span{
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	border-radius: 100%;
+	margin-left: 34px;
+	margin-top: 10px;
+	background:darkgray;
+}
+.buttom{
+	width: 1260px;
+	height: 130px;
+	margin: 0 auto;
+}
+.buttom_1{
+	width: 650px;
+	height: 20px;
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 14px;
+	padding-left: 90px;
+	
+}
+.buttom_1 p{
+	display: inline-block;
+	color: darkgrey;
+	
+}
+.buttom_2{
+	width: 230px;
+	height:50px;
+	margin: 0 auto;
+	padding-top: 20px;
+}

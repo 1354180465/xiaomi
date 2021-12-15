@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>米聊2016，红包来啦！</title>
+		<link rel="stylesheet" href="css1/font-awesome.min.css" />
+		<link rel="shortcut icon" href="ico/favicon.ico" />
+		<link rel="stylesheet" href="css_1/mitalkr.css" />		
+	</head>
+	<script>
+	window.onload=function(){
+		var storp=document.getElementById("storp");
+		var imgList=document.getElementById("list");
+		var zuo=document.getElementById("zuo");
+		var you=document.getElementById("you");
+	
+		function times(){
+			you.onclick=function(){
+			
+			}
+			tt=setInterval(arryImg(),100);
+		}
+	
+		function arryImg(offter){
+			var newLeft=imgList.style.left=parseInt(imgList.style.left)+offter;
+			imgList.style.left=newLeft+"px";
+			if(newLeft>-1349){
+			imgList.style.left=-5396+"px";
+			}
+			if(newLeft<-5396){
+			imgList.style.left=-1349+"px";
+			}
+			
+		}
+		
+		zuo.onclick=function(){
+			arryImg(-1349);
+		}
+		you.onclick=function(){
+			arryImg(+1349);
+		}
+		
+		
+		
+	}
+	</script>
+	
+	<body>
+	<div class="outer"><!--外部框架-->
+
+		<div class="top"><!--顶部导航栏-->
+		<div class="top_1"><!--导航内容-->
+		<div id="tb"><img src="img_mitalk/e3759e7a.logo.png"></div>
+		<ul>
+			<li style="background: rgb(39,147,248);">首页</li>
+			<li>下载</li>
+			<li>论坛</li>
+		</ul>	
+		</div><!--导航内容-->	
+		</div><!--顶部导航栏-->
+		<div class="banner" id="storp"><!--轮播图-->
+		<div class="banner_1" id="list" style="left: -1349px;">
+			<nav id="ba_3"><img src="img_mitalk/mitalkr_3.png"/></nav>
+			<nav id="ba_1" ><img src="img_mitalk/mitalkr_1.png" /></nav>
+			<nav id="ba_2"><img src="img_mitalk/mitalkr_2.png"/></nav>
+			<nav id="ba_3"><img src="img_mitalk/mitalkr_3.png"/></nav>
+			<nav id="ba_1" ><img src="img_mitalk/mitalkr_1.png" /></nav>
+		</div>
+		<span id="zuo"><</span>	
+		<span id="you">></span>
+		
+		</div><!--轮播图-->
+		<div class="xianzei">
+			<ul>
+				<li><img src=" img_mitalk/7f89950c.andriod_img.png"/>
+					<p>米聊Android版<span>2016</span></p>
+					<div class="xianzei_1">
+						<span class="fa fa-android fa-2x"></span>
+						<span class="zs">立即下载</span>
+					</div>
+				</li>
+				<li><img src="img_mitalk/2fbdbdff.ios_img.png"/>
+					<p>米聊iPhone版<span>2016</span></p>
+					<div class="xianzei_1">
+						<span class="fa fa-apple fa-2x"></span>
+					<span class="zs">立即下载</span>
+					</div>
+				</li>
+				<li><img src="img_mitalk/f08ea210.pc_img.png"/>
+					<p>米聊PC版<span>3.0</span></p>
+					<div class="xianzei_1">
+						<span class="fa fa-tv (alias) fa-2x"></span>
+						<span class="zs">立即下载</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="db">
+			<a>小米旗下网站:</a>
+			<a href="xiaomi_1.html"target="_blank">小米网<span>|</span></a>
+			<a href="xiaomi_michat.html"target="_blank">MIUI<span>|</span></a>
+			<a href="xiaomi_mitalkr.html"target="_blank">米聊游戏<span>|</span></a>
+			<a>多看阅读<span>|</span></a>
+			<a>小米路由器<span>|</span></a>
+			<a>云服务<span>|</span></a>
+			<a>小米视<span>|</span></a>
+			<a>频电话<span>|</span></a>
+			<a>小米后院</a>
+			</div>
+		<div class="buttom_1"><p>©www.miliao.com 京ICP备10046444号 京公网安备11010802020134</p></div>
+		<div class="buttom_2">
+			<p>
+			<img src="img_mitalk/11f160ed.inter_center.jpg" />
+			<img src="img_mitalk/f229b75e.mi-report-icon.jpg" />
+			<span>米聊举报邮箱：miliao-reporting@xiaomi.com  米聊举报电话：010-53286655</span></p></div>
+		
+		
+		
+	</div><!--外部框架-->
+		
+		
+	
+		
+	</body>
+</html>

@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	list-style:none;
+	text-decoration: none;
+	cursor: pointer;
+}
+.container{
+	/*background: red;*/
+	width: 1348px;
+}
+
+.top{
+	width: 1348px;
+	height: 40px;
+	background: #333;
+}
+.top_1{
+	width: 1217px;
+	height: 40px;
+	background:#333;
+	margin: 0 auto;
+	}
+.top_1 a{
+		color: #b0b0b0;
+	}
+	.top_1 a:hover{
+		color:white;
+	}
+.top_1 ul{
+	margin-left: 10px;
+}
+
+
+
+.top_1 li{
+	display: inline-block;
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #b0b0b0;
+}
+.top_1 ul li span{
+	display: inline-block;
+	width: 15px;
+	text-align: center;
+	color: #424242;
+}
+.nav{
+	margin-right: 20px;
+}
+.top_1 ol{
+	float: right;
+	margin-right:10px;
+}
+.goshuping{
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	background: #424242;
+	cursor: pointer;
+}
+.goshuping_1{
+	width: 300px;
+	height: 100px;
+	font-size: 13px;
+	font-family: "微软雅黑";
+	text-align: center;
+	background:white;
+	color: black;
+	line-height: 100px;
+	position: absolute;	
+	z-index: 200;
+	left: 973px;
+	box-shadow: 0 0 2px #808080;
+	display: none;
+}
+.goshuping:hover{
+	background: white;
+	color: orangered;
+}
+.goshuping:hover .goshuping_1{
+	display: block;
+}
+
+.middle{
+	width: 1349px;
+	background: url(../ico/apdownload-bg.jpg)no-repeat center 0;
+	background-position-x: center;
+	/*background-size: 100% 100%;*/
+	height: 1212px;
+	
+	border-top: 1px solid black;
+}
+#logo{
+	position: absolute;
+	top: 90px;
+	left: 60px;
+}
+a img{
+	width: 50px;
+	height: 50px;	
+}
+.middle_1{
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 300px;
+}
+.middle h2{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+.version{
+	width: 320px;
+	height:130px;
+	margin:0 auto;
+	margin-top:70px;
+}
+.version p{
+	background: white;
+	color: rgb(162,198,220);
+	display: inline-block;
+	height: 50px;
+	width:190px;
+	float: left;
+	line-height:36px ;
+	text-align: center;
+	margin-top: 13px;
+	border-radius: 3px 3px 3px 3px ;
+}
+.version p a{
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+}
+.version p span{
+	display: inline-block;
+	height: 45px;
+	width: 48px;
+	line-height: 45px;
+	text-align: center;
+	float: left;
+}
+.version img{
+	margin-top: -50px;
+	float: right;
+}
+#button{
+	width: 1240px;
+	height: 200px;
+	
+	margin: 0 auto;
+}
+#button_1{
+	width: 808px;
+	height: 60px;
+	float: left;
+}
+	#button_1 img{
+		float: left;
+		height: 60px;
+		width: 60px;
+	}
+#button_1 p{
+	display: inline-block;
+	font-size: 12px;
+	color: #757575;	
+	padding-left: 8px;	
+}
+#button_1 p a{
+	text-decoration: none;
+	color: #757575;	
+}
+#button_1 p a:hover{
+	color: orange;
+}
+#button_1 p span{
+	display: inline-block;
+	width: 10px;
+	text-align: center;
+}
+#button_2{
+	width: 410px;
+	height: 60px;
+	float: right;
+}
+#button_2 img{
+	width: 83px;
+	height:34px;
+}
+#hekj{
+	clear: both;
+	text-align: center;
+	height: 56px;
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+#hekj img{
+	width: 300px;
+	height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

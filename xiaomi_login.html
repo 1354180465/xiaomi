@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>小米账号-注册</title>
+		<link rel="stylesheet" href="css1/font-awesome.min.css" />
+		<link rel="shortcut icon"href="img/xiaomi_lg.ico"/>
+		<link rel="stylesheet" href="css_1/login.css" />
+	</head>
+	<body style="background:rgb(240,240,240)">
+		<div class="login" id="bd"><!--内部框架-->
+			<div class="login_midden" id="log">
+			<img src="css_1/xiaomi_lg.jpg" /></div>			
+			<div class="login_midden"><p id="title">注册小米帐号</p></div>
+			
+			
+			
+			<div class="login_midden">
+			<p style="font-size: 14px; color: black;">国家/地区</p>	
+			<div id="countries"><!--国家-->
+			<input type="text" disabled="disabled"  class="login_midden_1" id="cot"placeholder="中国">
+			<div class="login_midden_1_right"><span class="fa fa-chevron-down" id="down"></span></div>
+			</div><!--国家-->
+			
+			<div id="countries_1"><!--国家目录-->
+				<div id="countries_input">
+					
+					<input type="text"  />
+					
+				</div>
+				<div id="countries_2">
+					<p>常用</p>
+			<ul id="test">
+				<li>中国</li>
+				<li>中国台湾</li>
+				<li>中国香港</li>
+				<li>Brazil</li>
+				<li>India</li>
+				<li>Indonesia</li>
+				<li>Antigua and Barbuda</li>
+				<li>Afghanistan</li>
+				<li>Anguilla</li>
+				<li>Albania</li>
+				<li>Armenia</li>
+				<li>Angola</li>
+				<li>Argentina</li>
+				<li>American Samoa</li>
+				<li>Austria</li>
+				<li>Australia</li>
+				<li>Aruba</li>
+				<li>Azerbaijan</li>
+				<li>Algeria</li>
+				<li>Herzegovina</li>
+				<li>Barbados</li>
+				<li>Bangladesh</li>
+				<li>Belgium</li>
+				<li>Burkina Faso</li>
+				<li>Bulgaria</li>
+			</ul>
+			</div>
+			</div><!--国家目录-->
+			<p style="font-size: 14px; color: grey;">成功注册帐号后，国家/地区将不能被修改</p>	
+			</div>
+			
+			<!--输入手机号-->
+			<div class="login_midden"><!--输入手机号-->
+			<p style="font-size: 14px; color: black;">手机号码</p>		
+			<div id="countries"><!--手机号码-->	
+			<div class="login_midden_1_right"style="float: left;">
+				<span id="down" style="color:#333333;border: none;">+86</span></div>
+				<input type="text" id="tell"  class="login_midden_1" placeholder="请输入有效的手机号" style="border-right: 1px solid darkgrey;">
+			</div><!--手机号码-->
+			<li id="hint_1" style="color: orangered;display: none;"><span class="fa fa-exclamation-circle">
+				请输入手机号码
+			</li>
+			<li id="hint_2" style="color: orangered;display: none;"><span class="fa fa-exclamation-circle">
+				手机号格式错误
+			</li>
+				
+			</div><!--输入手机号-->
+			
+			
+			
+			
+			<!--图形验证码-->
+			
+			<div class="login_midden" >
+			<p style="font-size: 14px; color: black;">图形验证码</p>	
+			<div id="validation" style="color: #000000;"><!--图形验证码-->	
+				<input type="text"  placeholder="图形验证码"  id="verify">
+				<img src="ico/getCode" title="看不清，换一张"/>
+			</div><!--图形验证码-->
+			<li id="hint_3" style="color: orangered;display: none;"><span class="fa fa-exclamation-circle">
+				请输入图片验证码
+			</li>
+			</div>
+			
+			
+			<!--登录按钮-->			
+			<div class="login_midden" id="dj">
+				<button style="margin-top: 4px;" id="ljzc">立即注册</button>
+				<p>注册帐号即表示您同意并愿意遵守小米<a>用户协议</a>和 <a>隐私政策</a></p>
+			</div>
+				
+		</div><!--内部框架-->
+		<p class="down"><a style="color: black;">简体</a><span>|</span><a>繁体</a><span>|</span><a>English</a><span>|</span><a>常见问题</a></p>
+		<p class="down">小米公司版权所有-京ICP备10046444-<img src="ico/ghs.png"/>11010802020134号-京ICP证110507号</p>
+			
+	
+		
+	</body>
+	<script>
+		window.onload=function(){
+			
+			//一、国家下拉列表
+			
+			//获取文档中li标签中的值
+			var liList=document.getElementById("test").getElementsByTagName("li");
+			//获取input元素
+			var cot=document.getElementById("cot");
+			var bd=document.getElementById("bd");
+			var countries=document.getElementById("countries");
+			
+			for(i=0;i<liList.length;i++){
+			//点击显示每一个li标签的值，并输出
+			liList[i].onclick=function(){
+			var cot=document.getElementById("cot").value=this.innerText;
+			countries_1.style.display="none";
+			}
+			}
+			
+		//获取国家列表
+		var countries_1=document.getElementById("countries_1");
+		//点击国家名并显示在input输入框内
+		countries.onclick=function(){
+				countries_1.style.display="block";
+		}
+			
+		//二、注册表单验证
+		//获取所需元素
+		
+		//获取手机号
+		var tell=document.getElementById("tell");
+		//获取验证码
+		var verify=document.getElementById("verify");
+		//获取手机号提示内容所置放的位置
+		var tellHint1=document.getElementById("hint_1");
+		var tellHint2=document.getElementById("hint_2");
+		
+		//获取验证码提示内容所置放的位置
+		var verifyHint=document.getElementById("hint_3");
+		
+		//获取注册按钮的ID
+		var refer=document.getElementById("ljzc");
+		
+			//1、手机号输入框获得焦点事件
+			tell.onfocus=function(){			
+			tellHint1.style.display="none";
+			tellHint2.style.display="none";
+	
+			tell.style.border="1px solid darkgrey";
+
+		}
+			//2、手机号输入框失去焦点事件
+			tell.onblur=function(){
+				//为输入的手机号制定正则表达式
+				var reg=/^1[34578]\d{9}$/;
+				if(tell.value==""){
+					tellHint1.style.display="block";
+					tell.style.border="1px solid red";
+					return;
+				}
+				if(reg.test(tell.value)==false){
+					tellHint2.style.display="block";
+					tell.style.border="1px solid red";	
+					return;
+				}
+				
+			}
+			
+			//3、验证码输入框获得焦点事件
+			verify.onfocus=function(){
+			verifyHint.style.display="none";
+			verify.style.border="";
+			
+			}	
+		
+			//4、验证码输入框失去焦点事件
+			verify.onblur=function(){	
+				
+			if(verify.value==""){
+				verifyHint.style.display="block";
+				verify.style.border="1px solid red";
+				return;
+				}
+			}
+			//点击注册按钮时发生的事件
+			refer.onclick=function(){
+				if(tell.value==""){
+					tellHint1.style.display="block";
+					tell.style.border="1px solid red";
+					return;
+				}
+			if(verify.value==""){
+				verifyHint.style.display="block";
+				verify.style.border="1px solid red";
+				return;
+				}
+			
+			}
+		
+		}
+		
+		
+		
+	</script>
+</html>

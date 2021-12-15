@@ -1,0 +1,174 @@
+*{
+	margin: 0 ;
+	padding:0;
+}
+/*.waibu{
+	width: 1362px;
+	height: 824px;
+}*/
+.top{
+	height: 50px;
+	max-width: 1366px;
+	background: #000000;
+}
+.top_1{
+	width: 1250px;
+	height: 50px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.top_1 a{
+	line-height: 50px;
+	font-family:;
+	color: white;
+	font-size:24px;
+}
+.top_1 ul{
+	list-style: none;
+	float: right;
+}
+.top_1 ul li{
+	text-align: center;
+	float: left;
+	line-height: 50px;
+	margin-left: 31px;
+	color: #dddddd;
+	font-size: 14px;
+	cursor: pointer;
+}
+.top_1 ul li:hover{
+	color: #868686;
+}
+.banner{
+	height:634px;
+	width:1349px;
+	background:url(../img_michat/banner/banner_0.png)no-repeat;
+	background-position-x: center;
+}
+.banner ul{
+	height: 634px;
+	width: 1349px;
+}
+.qwq{
+	background: white;
+}
+
+
+
+nav{
+	width: 60px;
+	height: 20px;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 600px;
+	right: 620px;
+	
+}
+nav span{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: gainsboro;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.miui9{
+	width:1349px;
+	height: 167px;
+}
+.miui9 ul{	
+	width: 1240px;
+	height: 57px;
+	margin: 0 auto;
+}
+.miui9 ul li{
+	margin-top: 49px;
+	float: left;
+	list-style: none;
+	width: 411px;
+	height: 57px;
+	cursor: pointer;
+	border-right: 1px solid darkgray;	
+}
+.miui9 ul li:hover h3{
+	color: orange;
+}
+.miui9 ul li:hover p{
+	color: orange;
+}
+.miui9 ul li img{
+	height: 57px;
+	float: left;
+	margin-left:80px;
+}
+.m_1{
+	display: inline-block;
+	margin-left: 30px;
+	
+}
+
+.m_1 h3{
+	color: #333333;
+}
+.m_1 p{
+	margin-top: 9px;
+	color: #939393;
+	font-size: 14px;
+}
+.bottom{
+	width: 1240px;
+	height: 160px;
+	margin: 0 auto;
+	border-top: 1px solid darkgray;
+}
+.bottom ul{
+	width: 920px;
+	height:21px;
+	list-style: none;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.bottom ul li{
+	border-right: 1px solid darkgray;
+	width: 127px;
+	font-size: 13px;
+	text-align: center;
+	float: left;
+	color: #858585;
+	cursor: pointer;
+}
+.bottom ul li:hover{
+	color: orange;
+	text-decoration: underline;
+}
+#ddd{
+	position: absolute;
+	width: 1240px;
+	height: 14px;
+	margin: 0 auto;
+	margin-top: -40px;
+	text-align: center;
+	font-size: 12px;
+	color:#858585 ;	
+}
+#font{
+	float: right;
+	width: 127px;
+	height:123px;
+	position: relative;
+	top: -116px;
+	/*margin-right: 26px;*/
+	display: none;
+}
+#zt:hover #font{
+	display: block;
+}
+#font p{
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color:#858585 ;
+}
+#font p:hover{
+	color: orange;
+}

@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+body{
+	height: 740px;
+}
+.login{
+	width: 900px;
+	height: 630px;
+	background:white;
+	margin: 0 auto;
+	border-top: 1px solid white;
+}
+.login_midden{
+	width: 320px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 8px;
+}
+#log img{
+	width:50px;
+	height:50px ;
+	margin-left:130px;
+}
+.login_midden #title{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 70px;
+}
+.login_midden_1{
+	display: inline-block;
+	float: left;
+	width: 276px;
+	height: 40px;
+	border: 1px solid darkgray;
+	border-right: none;
+	line-height: 40px;
+	font-size: 14px;
+	outline: none;
+	background: white;
+}
+.login_midden p{
+	margin-bottom: 5px;
+}
+.login_midden_1_right{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: gainsboro;
+	border: 1px solid darkgray;
+}
+#down{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border: 1px solid gainsboro;
+	text-align: center;
+	border-radius: 100%;
+	line-height: 25px;
+	margin-top: 6px;
+	margin-left: 6px;
+}
+#countries{
+	cursor:pointer;
+}
+#countries_1{
+	width:316px;
+	height: 300px;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: none;	
+	background: white;
+	border: 1px solid gainsboro;
+	
+}
+#countries_2{
+	width: 320px;
+	height: 800px;
+
+}
+#countries_2 p{
+	display: inline-block;
+	height: 28px;
+	width: 320px;
+	line-height: 28px;
+	background: rgb(252,222,204);
+}
+#countries_input{
+	width: 320px;
+	height: 50px;
+	padding-top: 8px;
+}
+#countries_input input{
+	width: 268px;
+	height: 32px;
+	outline: none;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+#countries_1 ul{
+	width: 300px;
+	height: 270px;
+	list-style: none;
+}
+#countries_1 ul li{
+	height: 34px;	
+	line-height: 34px;
+	cursor: pointer;
+	font-size: 14px;
+	border-top: 1px solid darkgray;
+}
+#countries_1 ul li:hover{
+	background:rgba(0,0,0,.1);
+}
+#validation{
+	width:320px;
+	height: 50px;
+	
+}
+#validation input{
+	width: 180px;
+	height: 38px;
+	outline: none;
+}
+#validation img{
+	width: 120px;
+	height: 50px;
+	float: right;
+	
+}
+button{
+	width: 310px;
+	height: 38px;
+	color: white;
+	background: rgb(255,103,0);
+	font-size: 15px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin-left: 5px;
+}
+button:hover{
+	background: rgba(255,103,0,.8);
+}
+#dj p{
+	padding-left: 5px;
+	font-size: 14px;
+	color: #939393;
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+#dj a{
+	font-weight: bold;
+	color: #000000;
+}
+.down a{
+	cursor: pointer;
+}
+.down a:hover{
+ 	color: #808080;
+ }
+.down{
+	text-align: center;
+	font-size: 15px;
+	color: #939393;
+	margin-top: 10px;
+}
+.down span{
+	display: inline-block;
+	width: 28px;
+	height: 16px;
+	text-align: center;
+}
